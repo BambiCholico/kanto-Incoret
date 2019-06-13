@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+}
+
+html, body{
+    height:100%;
+}
+
+.welcome{
+    position: relative;
+    height: 880px;
+    width: 100%;
+    background-image: url(1Lp.png);
+    background-size: cover ;
+}
+
+.nosotros{
+    position: relative;
+    height: 880px;
+    width: 100%;
+    background-image: url(nosotros.png);
+    background-size: cover ;
+}
+
+h1.welcome-title{
+    font-size: 55px;
+    color: #fff;
+    height: 100px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 0 0 145px;
+}
+
+h2.welcome-text{
+    font-size: 25px;
+    color: #fff;
+    height: 200px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 16px 0 0 145px;
+}
+
+h1.nosotros-title{
+    color: #fff;
+    font-size: 31px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 16px 0;
+    margin:0 0 8px;
+}
+
+h2.nosotros-text{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin: 16px 0 0;
+    line-height: 1.6;
+}
+
+.right-square{
+    position: absolute;
+    top:550px;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    right: 0;
+}
+
+.left-square{
+    position: absolute;
+    top:550px;
+    left: 0px;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes square {
+    0%{top:550px;}
+    50% {top:500px;}
+    100%{top:550px;}
+  }
+
+@media only screen and (min-width:1460px) {
+    .welcome{
+        background-position-y: -160px;
+    }
+}
+
+@media only screen and (min-width:1725px) {
+    .welcome{
+        background-position-y: -320px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .welcome{
+        background-position-y: -480px;
+    }
+}
+
+@media only screen and (min-width:2265px) {
+    .welcome{
+        background-position-y: -640px;
+    }
+}
+
+@media only screen and (min-width:2535px) {
+    .welcome{
+        background-position-y: -800px;
+    }
+}
+
+@media only screen and (min-width:1310px) {
+    .nosotros{
+        background-position: right bottom;
+    }
+}
+
+@media only screen and (min-width:2016px) {
+    .nosotros{
+        background-position: left bottom;
+        background-position-y: 1015px;
+    }
+}
+
+@media only screen and (max-width:740px) {
+    .welcome{
+        background-position-x: -400px;
+    }
+    .nosotros{
+        background-position-x: -400px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .left-square{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:535px) {
+    .nosotros{
+        background-position-x: -700px;
+        background-position: right bottom;
+    }
+}
+
