@@ -21,6 +21,14 @@ html, body{
     background-image: url(nosotros.png);
     background-size: cover ;
 }
+.withUs{
+  position: relative;
+  height: 880px;
+  width: 100%;
+  background-image: url(bolsaTrabajo.png);
+  background-size: cover ;
+
+}
 
 h1.welcome-title{
     font-size: 55px;
@@ -151,4 +159,3 @@ h2.nosotros-text{
         background-position: right bottom;
     }
 }
-
