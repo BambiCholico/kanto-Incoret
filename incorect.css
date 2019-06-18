@@ -22,6 +22,22 @@ html, body{
     background-size: cover ;
 }
 
+.tecnica{
+    position: relative;
+    height: 880px;
+    width: 100%;
+    background-image: url(tecnica.png);
+    background-size: cover ;
+}
+
+.gRow{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content:flex-start;
+    align-content: center;
+}
+
 h1.welcome-title{
     font-size: 55px;
     color: #fff;
@@ -63,6 +79,42 @@ h2.nosotros-text{
     line-height: 1.6;
 }
 
+.tecnica-title{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin: 16px 0;
+    text-align: right;
+    justify-self: flex-end;
+    padding: 0 0;
+}
+
+p.tecnica-sub{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    margin: 16px 16px;
+}
+
+p.tecnica-body{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin: 16px 16px;
+}
+
+hr.tecnica{
+    height:1.5px;
+    border:none;
+    color:white;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
 .right-square{
     position: absolute;
     top:550px;
@@ -81,10 +133,25 @@ h2.nosotros-text{
     animation-iteration-count: infinite;
 }
 
+.right-square-top{
+    position: absolute;
+    top:0px;
+    right: 0;
+    animation-name: square-top;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes square {
     0%{top:550px;}
     50% {top:500px;}
     100%{top:550px;}
+  }
+
+  @keyframes square-top {
+    0%{top:0;}
+    50% {top:50px;}
+    100%{top:0px;}
   }
 
 @media only screen and (min-width:1460px) {
@@ -149,6 +216,18 @@ h2.nosotros-text{
     .nosotros{
         background-position-x: -700px;
         background-position: right bottom;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .right-square-top{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1520px) {
+    .tecnica-title{
+        text-align: center;
     }
 }
 
