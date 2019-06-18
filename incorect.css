@@ -49,6 +49,7 @@ html, body{
   font-size: 33px;
   font-weight: 600;
 }
+<<<<<<< HEAD
 
 .tecnica{
     position: relative;
@@ -65,6 +66,8 @@ html, body{
     justify-content:flex-start;
     align-content: center;
 }
+=======
+>>>>>>> incoret-work-with-us
 
 h1.welcome-title{
     font-size: 55px;
@@ -163,6 +166,7 @@ hr.tecnica{
 .flex{
   display: flex;
 }
+<<<<<<< HEAD
 
 .right-square-top{
     position: absolute;
@@ -172,6 +176,8 @@ hr.tecnica{
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
+=======
+>>>>>>> incoret-work-with-us
 
 @keyframes square {
     0%{top:550px;}
@@ -249,6 +255,7 @@ hr.tecnica{
         background-position: right bottom;
     }
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width:580px) {
     .right-square-top{
@@ -261,3 +268,5 @@ hr.tecnica{
         text-align: center;
     }
 }
+=======
+>>>>>>> incoret-work-with-us
