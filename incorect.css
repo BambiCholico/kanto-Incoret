@@ -79,7 +79,7 @@ h2.nosotros-text{
     line-height: 1.6;
 }
 
-h1.tecnica-title{
+.tecnica-title{
     color: #fff;
     font-size: 30px;
     letter-spacing: 3px;
@@ -226,9 +226,8 @@ hr.tecnica{
 }
 
 @media only screen and (min-width:1520px) {
-    .h1.tecnica-title{
+    .tecnica-title{
         text-align: center;
-        justify-self: center;
     }
 }
 
