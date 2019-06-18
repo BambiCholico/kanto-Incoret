@@ -21,6 +21,34 @@ html, body{
     background-image: url(nosotros.png);
     background-size: cover ;
 }
+.withUs{
+  position: relative;
+  height: 880px;
+  width: 100%;
+  background-image: url(bolsaTrabajo.png);
+  background-size: cover ;
+  display: flex;
+
+}
+.withUs .contain{
+  margin-top: 100px;
+}
+.withUs .body{
+  color: #fff;
+  font-size: 20px;
+}
+.body .body-bold{
+  font-weight: 800;
+}
+.margin-input{
+  margin-bottom: 20px;
+}
+.sub-title{
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 33px;
+  font-weight: 600;
+}
 
 .tecnica{
     position: relative;
@@ -132,6 +160,9 @@ hr.tecnica{
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
+.flex{
+  display: flex;
+}
 
 .right-square-top{
     position: absolute;
@@ -230,4 +261,3 @@ hr.tecnica{
         text-align: center;
     }
 }
-
