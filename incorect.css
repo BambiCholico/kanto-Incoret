@@ -27,7 +27,27 @@ html, body{
   width: 100%;
   background-image: url(bolsaTrabajo.png);
   background-size: cover ;
+  display: flex;
 
+}
+.withUs .contain{
+  margin-top: 100px;
+}
+.withUs .body{
+  color: #fff;
+  font-size: 20px;
+}
+.body .body-bold{
+  font-weight: 800;
+}
+.margin-input{
+  margin-bottom: 20px;
+}
+.sub-title{
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 33px;
+  font-weight: 600;
 }
 
 h1.welcome-title{
@@ -87,6 +107,9 @@ h2.nosotros-text{
     animation-name: square;
     animation-duration: 6s;
     animation-iteration-count: infinite;
+}
+.flex{
+  display: flex;
 }
 
 @keyframes square {
