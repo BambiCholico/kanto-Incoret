@@ -254,6 +254,12 @@ hr.tecnica{
     .right-square-top{
         display: none;
     }
+    .withUs .contain{
+      flex-direction: column-reverse;
+    }
+    .withUs .right-square{
+      display: none;
+    }
 }
 
 @media only screen and (min-width:1520px) {
